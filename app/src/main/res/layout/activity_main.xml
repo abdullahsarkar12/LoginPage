@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginLeft="20dp"
+    android:src="@mipmap/ic_launcher_round"
+    >
+</ImageView>
+    <EditText
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextId1"
+        android:textSize="20dp"
+        android:textColor="#2C2A2A"
+        android:hint="UserName"
+        android:drawableLeft="@drawable/ic_action_name"
+        >
+    </EditText>
+
+    <EditText
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextId2"
+        android:textSize="20dp"
+        android:textColor="#2C2A2A"
+        android:hint="Password"
+        android:drawableLeft="@drawable/lock"
+        >
+    </EditText>
+
+    <Button
+        android:padding="5dp"
+        android:id="@+id/LoginButtonId"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginTop="15dp"
+        />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="15dp"
+      android:padding="5dp"
+      android:textColor="#FD0B0B"
+      android:gravity="center"
+      android:layout_marginTop="35dp"
+      android:id="@+id/TextViewId"
+      >
+
+  </TextView>
+
+
+</LinearLayout>
